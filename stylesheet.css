@@ -16,6 +16,10 @@ footer {
  background-color: #C6E5FF;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
  background-color: #C6E5FF;
  text-align: center;
@@ -45,6 +49,8 @@ footer {
  width: 100%;
  list-style: none;
  overflow: hidden;
+ margin: 0;
+ padding: 0;
 }
 
 #tab li {
@@ -55,7 +61,7 @@ footer {
 }
 
 #tab li a {
-  font-size: 30px;
+  font-size: 20px; 
   text-decoration: none;
   color: #cornflowerblue;
   font-weight: bold;

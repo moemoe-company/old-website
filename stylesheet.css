@@ -1,0 +1,65 @@
+html {
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+
+body {
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+
+footer {
+ width: 100%;
+ text-align: center;
+ background-color: #C6E5FF;
+}
+
+.container {
+ background-color: #C6E5FF;
+ text-align: center;
+ width: 100%;
+ margin: 0;
+ text-shadow:2px 0 0 white;
+}
+
+.mainicon {
+ width: 150px;
+ height: 150px;
+}
+
+.pretty{
+ text-align: center;
+ background-color: #FFF8FE;
+ margin: 0;
+ width: 100%;
+}
+
+.backpict {
+  width: 1000px;
+  height: auto;
+}
+
+#tab {
+ width: 100%;
+ list-style: none;
+ overflow: hidden;
+}
+
+#tab li {
+  text-align: center;
+  vertical-align: middle;
+  display: inline;
+  margin-right: 2px;
+}
+
+#tab li a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #cornflowerblue;
+  font-weight: bold;
+  padding: 5px;
+}
+
+

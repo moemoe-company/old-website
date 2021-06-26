@@ -10,6 +10,8 @@ body {
  margin: 0;
 }
 
+
+
 footer {
  width: 100%;
  text-align: center;
@@ -62,4 +64,10 @@ footer {
   padding: 5px;
 }
 
+.box {
+align-items: center;
+}
 
+.box-height {
+align-items: center;
+}

@@ -10,12 +10,14 @@ body {
  margin: 0;
 }
 
-
+p {
+  margin: 0px;
+}
 
 footer {
  width: 100%;
  text-align: center;
- background-color: #C6E5FF;
+ background-color: #dbefff;
 }
 
 img {
@@ -23,15 +25,15 @@ img {
 }
 
 .container {
- background-color: #C6E5FF;
+ background-color: #dbefff;
  text-align: center;
  width: 100%;
  margin: 0;
  text-shadow:2px 0 0 white;
+ max-width: 100%;
 }
 
 .mainicon {
- width: 150px;
  height: 150px;
 }
 
@@ -65,7 +67,7 @@ img {
 #tab li a {
   font-size: 20px; 
   text-decoration: none;
-  color: #cornflowerblue;
+  color: #282e33;
   font-weight: bold;
   padding: 5px;
 }
@@ -76,4 +78,61 @@ align-items: center;
 
 .box-height {
 align-items: center;
+}
+
+.staff-container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+
+.sns-icon:hover {
+  opacity: 0.6;
+}
+
+.sns-icon {
+  vertical-align: top;
+  display: block;
+  padding: 5px 0px;
+}
+
+.stafficon-container {
+  width: 25%;
+}
+
+.stafficon {
+  border-radius: 200px;
+}
+
+.description {
+  width: 70%;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+#staff-l li {
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 2px;
+  margin-top: 50px;
+  list-style: none;
+}
+
+#staff-l li div {
+  display: inline-block;
+}
+
+
+.staff-name {
+  font-size: 30px;
+}
+
+.staff-role  {
+  font-size: 25px;
+}
+
+.staff-description {
+  font-size: 25px;
 }

@@ -120,6 +120,10 @@ align-items: center;
   list-style: none;
 }
 
+#staff-l li:hover {
+  background-color: #f2ebeb;
+}
+
 #staff-l li div {
   display: inline-block;
 }
